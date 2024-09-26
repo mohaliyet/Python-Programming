@@ -9,7 +9,7 @@ The goal of this module is to introduce you to input and output operations in Py
 - Learn how to take input from the user using `input()`.
 - Understand how to print output using `print()`.
 - Explore different string formatting methods: `f-strings`, `.format()`.
-- Learn string *indexing* and *slicing*.
+- Learn string `indexing` and `slicing`.
 - Use common string methods: `.upper()`, `.lower()`, `.replace()`, `.split()`.
 - Perform concatenation and replication of strings.
 
