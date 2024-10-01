@@ -102,22 +102,26 @@ Design and implement a small Python project based on all the concepts learned. H
     - Create a game where the computer randomly selects a number, and the user has to guess it.
     - Example:
         ```python
-        import random
-
         def guess_number():
-            number = random.randint(1, 100)
+            low = 1
+            high = 100
             attempts = 0
+            print("Think of a number between 1 and 100, and I will try to guess it.")
             while True:
-                guess = int(input("Guess the number (between 1 and 100): "))
+                guess = (low + high) // 2
                 attempts += 1
-                if guess < number:
-                    print("Too low!")
-                elif guess > number:
-                    print("Too high!")
-                else:
-                    print(f"Congratulations! You guessed the number in {attempts} attempts.")
+                print(f"My guess is: {guess}")
+                feedback = input("Is it too high (H), too low (L), or correct (C)? ").upper()
+                if feedback == "H":
+                    high = guess - 1
+                elif feedback == "L":
+                    low = guess + 1
+                elif feedback == "C":
+                    print(f"Congratulations! I guessed the number in {attempts} attempts.")
                     break
-
+                else:
+                    print("Invalid input. Please enter H, L, or C.")
+        
         guess_number()
         ```
 
