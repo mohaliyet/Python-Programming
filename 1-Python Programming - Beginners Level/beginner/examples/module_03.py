@@ -1,4 +1,1 @@
-text1 = "Hello "
-text2 = "World"
-
-print(text1 * 3)
+print("Hello, World!"[2:6])
