@@ -128,74 +128,28 @@ Design and implement a small Python project based on all the concepts learned. H
 ## Review and Next Steps
 
 ### Recap of Key Concepts
-- Why programming and why python 
-- Variables and Data Types
-- Input/Output and String Manipulation
-- Operators and Expressions
-- Control Flow (if statements, loops)
-- Functions
-- Data Structures (lists, tuples, dictionaries)
-- File Handling
-- Error Handling and Debugging
+- **Why programming and why python**
+- **Variables and Data Types**
+- **Input/Output and String Manipulation**
+- **Operators and Expressions**
+- **Control Flow (if statements, loops)**
+- **Functions**
+- **Data Structures (lists, tuples, dictionaries)**
+- **Error Handling and Debugging**
+- **File Handling**
 
 For a detailed review of these concepts, refer to the [Python Programming: Beginners Level](README.md) file.
 
 ### Introduction to Intermediate Topics
 - **Advanced Data Structures**
-    - Nested lists and comprehensions
-    - Advanced dictionary methods: `get()`, `setdefault()`, `.update()`
-    - Sorting lists and tuples with `sorted()`, `key` parameter
-    - Using `zip()` for combining lists
-
 - **Advanced Functions and Modules**
-    - Default argument values
-    - Variable-length arguments: `*args` and `**kwargs`
-    - Lambda functions and `map()`, `filter()`, `reduce()`
-    - Function decorators (basic introduction)
-    - Scope and closures
-
 - **Object-Oriented Programming (OOP)**
-    - Introduction to Object-Oriented Programming (OOP)
-    - Defining classes and creating objects
-    - Class attributes and instance attributes
-    - Methods: instance methods, class methods, static methods
-    - Inheritance and Polymorphism
-
+- **Advanced Error Handling and Exceptions**
 - **File Handling and Working with CSV**
-    - Working with different file modes: `r`, `w`, `a`, `rb`, `wb`
-    - Working with directories: `os` and `shutil` modules
-    - Managing file paths using `os.path` and `pathlib`
-    - Reading and writing CSV files using the `csv` module
-    - Working with CSV files using `pandas` (optional introduction)
-
 - **Working with APIs and JSON Data**
-    - What is an API? Introduction to RESTful APIs
-    - Making HTTP requests using `requests` module
-    - Parsing JSON data: loading, accessing, and modifying JSON
-    - Sending data with POST requests
-
 - **Regular Expressions (Regex)**
-    - Introduction to Regular Expressions (Regex)
-    - Common regex patterns for text matching
-    - Using the `re` module: `match()`, `search()`, `findall()`, `sub()`
-    - Applications of regex in text processing
-
 - **Working with Databases**
-    - Introduction to relational databases
-    - Setting up and working with SQLite in Python using `sqlite3`
-    - Basic SQL operations: SELECT, INSERT, UPDATE, DELETE
-    - Connecting Python to an external database
-    - Querying data from the database
-
 - **Introduction to Testing and Debugging**
-    - Using Python's `pdb` module for debugging
-    - Effective use of print debugging vs using `pdb`
-    - Using logging for tracking program execution (`logging` module)
-    - Introduction to unit testing
-    - Writing tests using `unittest`
-    - Writing test cases for functions and classes
-    - Running tests and checking results
-
 ## Resources
 
 - **Python Documentation**: [https://docs.python.org/3/](https://docs.python.org/3/)

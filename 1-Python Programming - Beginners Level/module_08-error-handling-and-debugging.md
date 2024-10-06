@@ -108,9 +108,8 @@ Exception handling allows you to write programs that can handle unexpected situa
         with open("file.txt", "r") as file:
             content = file.read()
     except FileNotFoundError:
-        print("File not found")
-    except IOError:
-        print("An I/O error occurred")
+   
+        print("File not found.")
     ```
 
 ## Basic Debugging Techniques
