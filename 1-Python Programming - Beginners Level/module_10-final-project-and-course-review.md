@@ -99,7 +99,7 @@ Design and implement a small Python project based on all the concepts learned. H
         ```
 
 - **Simple Number-Guessing Game**
-    - Create a game where the computer randomly selects a number, and the user has to guess it.
+    - Create a game where the user thinks of a number between 1 and 100, and the computer tries to guess it based on the user's feedback.
     - Example:
         ```python
         def guess_number():

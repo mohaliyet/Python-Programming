@@ -18,6 +18,7 @@ def read_task(filename):
 		for line in lines:
 			print(line,end="")
 
+print("---- To-Do List Manager ----")
 
 todo_list = []
 
