@@ -1,6 +1,6 @@
 # Python Programming: Intermediate Level
 
-**Objective**: By the end of this course, you will be able to work with more advanced Python concepts such as object-oriented programming, file handling, libraries, and modules. They will also be introduced to the fundamentals of working with external APIs and databases.
+**Objective**: By the end of this course, you will be able to work with more advanced Python concepts such as object-oriented programming, file handling, libraries, and modules. You will also be introduced to the fundamentals of working with external APIs and databases.
 
 ---
 
@@ -59,11 +59,14 @@
 
 ---
 
-## Module 4: Error Handling and Exceptions (Advanced)
+## Module 4: Error Handling and Exceptions
 
-### Handling Multiple Exceptions
+### Basic Exception Handling
 
 - Revisiting basic exception handling: `try`, `except`, `finally`
+
+### Advanced Exception Handling
+
 - Catching multiple exceptions
 - Custom exception classes
 - Using `assert` for debugging
@@ -93,6 +96,7 @@
 
 - What is an API? Introduction to RESTful APIs
 - Making HTTP requests using `requests` module
+- Introduction to JSON format
 - Parsing JSON data: loading, accessing, and modifying JSON
 - Sending data with POST requests
 
